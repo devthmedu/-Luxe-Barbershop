@@ -1,0 +1,204 @@
+/* Estilos para telas menores que 768px (tablet portrait) */
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 0.8rem 1rem; /* Reduzir padding no cabeçalho para telas pequenas */
+    }
+
+    .header .logo img {
+        width: 80px; /* Reduzir tamanho do logo no cabeçalho */
+    }
+
+    .header .navbar {
+        display: none; /* Ocultar menu principal por padrão */
+        flex-direction: column; /* Layout de coluna para o menu hamburguer */
+        align-items: center; /* Centralizar verticalmente os itens */
+        text-align: center; /* Centralizar texto */
+    }
+
+    .header .navbar.active {
+        display: flex; /* Exibir menu quando ativo */
+    }
+
+    .header .navbar ul {
+        list-style-type: none; /* Remover marcadores de lista */
+        padding: 0;
+    }
+
+    .header .navbar ul li {
+        margin-bottom: 10px; /* Espaçamento entre os itens do menu */
+    }
+
+    .header .navbar ul li a {
+        font-size: 1.2rem; /* Tamanho do texto */
+        text-decoration: none; /* Remover sublinhado */
+        color: #333; /* Cor do texto */
+        transition: color 0.3s ease; /* Transição suave de cor */
+    }
+
+    .header .navbar ul li a:hover {
+        color: #5b3124; /* Cor do texto ao passar o mouse */
+    }
+
+    .icons {
+        margin-top: 1rem; /* Espaçamento entre o menu e os ícones */
+        display: flex; /* Exibir ícones em linha */
+        justify-content: center; /* Centralizar horizontalmente */
+    }
+
+    .icon {
+        font-size: 20px; /* Tamanho dos ícones */
+        margin: 0 10px; /* Espaçamento entre os ícones */
+    }
+
+    .mobile-menu {
+        position: absolute; /* Posição absoluta para cobrir a tela inteira */
+        top: 100%; /* Abaixo do cabeçalho */
+        left: 0;
+        width: 100%;
+        background-color: #1c1c1c; /* Fundo do menu */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+        z-index: 999; /* Acima dos outros elementos */
+        display: none; /* Inicialmente oculto */
+        color: #efefef; /* Cor do texto */
+    }
+
+    .mobile-menu ul {
+        list-style-type: none; /* Remover marcadores de lista */
+        padding: 0;
+    }
+
+    .mobile-menu ul li {
+        padding: 10px 0; /* Espaçamento interno dos itens do menu */
+        text-align: center; /* Centralizar texto */
+    }
+
+    .mobile-menu ul li a {
+        display: block; /* Transformar em bloco para ocupar toda a largura */
+        color: #efefef; /* Cor do texto */
+        text-decoration: none; /* Remover sublinhado */
+        font-size: 1.2rem; /* Tamanho do texto */
+        padding: 10px; /* Espaçamento interno */
+        transition: color 0.3s ease; /* Transição suave de cor */
+    }
+
+    .mobile-menu ul li a:hover {
+        color: #5b3124; /* Cor do texto ao passar o mouse */
+    }
+
+    /* Mostrar o menu hamburguer quando estiver aberto */
+    .mobile-menu.active {
+        display: block;
+    }
+}
+
+/* Estilos para telas menores que 576px (mobile) */
+@media screen and (max-width: 575px) {
+    .header .logo img {
+        width: 60px; /* Reduzir tamanho do logo no cabeçalho */
+    }
+
+    .header .navbar {
+        flex-direction: row; /* Layout de linha para o menu hamburguer */
+        justify-content: space-between; /* Espaço entre os itens e o menu hamburguer */
+        align-items: center; /* Centralizar verticalmente os itens */
+        color: #efefef; /* Cor do texto */
+    }
+
+    .header .navbar ul {
+        display: none; /* Ocultar menu principal */
+    }
+
+    .header .icons {
+        display: none; /* Ocultar ícones */
+    }
+
+    .social-icons {
+        position: fixed;
+        bottom: 20px; /* Distância do fundo da página */
+        right: 20px; /* Distância da borda direita da página */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c1c1c;
+        color: #efefef;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: bottom 0.3s ease;
+    }
+
+    .menu-toggle {
+        display: block; /* Mostrar o ícone do menu hamburguer */
+        color: #efefef; /* Cor do ícone */
+        font-size: 24px; /* Tamanho do ícone */
+        cursor: pointer; /* Cursor ao passar o mouse */
+    }
+
+    .menu-toggle:hover {
+        color: #5b3124; /* Cor do ícone ao passar o mouse */
+    }
+
+    .mobile-menu {
+        position: absolute; /* Posição absoluta para cobrir a tela inteira */
+        top: 100%; /* Abaixo do cabeçalho */
+        left: 0;
+        width: 100%;
+        background-color: #1c1c1c; /* Fundo do menu */
+        color: #efefef; /* Cor do texto */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+        z-index: 999; /* Acima dos outros elementos */
+    }
+
+    .mobile-menu ul {
+        list-style-type: none; /* Remover marcadores de lista */
+        padding: 0;
+    }
+
+    .mobile-menu ul li {
+        padding: 10px 0; /* Espaçamento interno dos itens do menu */
+        text-align: center; /* Centralizar texto */
+    }
+
+    .mobile-menu ul li a {
+        display: block; /* Transformar em bloco para ocupar toda a largura */
+        color: #efefef; /* Cor do texto */
+        text-decoration: none; /* Remover sublinhado */
+        font-size: 1.2rem; /* Tamanho do texto */
+        padding: 10px; /* Espaçamento interno */
+        transition: color 0.3s ease; /* Transição suave de cor */
+    }
+
+    .mobile-menu ul li a:hover {
+        color: #5b3124; /* Cor do texto ao passar o mouse */
+    }
+
+    /* Mostrar o menu hamburguer quando estiver aberto */
+    .mobile-menu.active {
+        display: block;
+    }
+}
+
+/* Estilos para telas maiores */
+@media screen and (min-width: 768px) {
+    .header .navbar {
+        display: flex; /* Exibir menu principal */
+        justify-content: center;
+        align-items: center; /* Centralizar verticalmente os itens */
+    }
+
+    .menu-toggle {
+        display: none; /* Ocultar o ícone do menu hamburguer em telas maiores */
+    }
+
+    .mobile-menu {
+        display: none; /* Ocultar o menu hamburguer em telas maiores */
+    }
+
+    .icons {
+        display: flex; /* Exibir ícones */
+    }
+
+    .social-icons {
+        display: none; /* Ocultar ícones de redes sociais em telas maiores */
+    }
+}
