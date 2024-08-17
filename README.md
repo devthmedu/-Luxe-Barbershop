@@ -1,49 +1,51 @@
+
+![1](https://github.com/user-attachments/assets/3b0161af-38e7-4dd3-ba3e-66675fd8062b)
+
+
 # Luxe Barbershop
 
-![Sample image](https://github.com/thmedu/Barbearia-Luxe/assets/141462806/3b523a34-9cee-4dca-b62c-27a01970c341)
+## 📋 Conteúdo
 
-## 📋 Content
+- **Visão Geral**
+- **Tecnologias Utilizadas**
+- **Como Usar**
+- **Exemplo**
+- **Contribuição**
+- **Licença**
 
-- **Overview**
-- **Technologies Used**
-- **How ​​to use**
-- **Example**
-- **Contribution**
-- **License**
+## 🌟 Visão Geral
 
-## 🌟 Overview
+O projeto Barbearia Luxe tem como objetivo melhorar o atendimento ao cliente, apresentar os serviços oferecidos e permitir agendamentos por meio de uma API e WhatsApp, além de contar com um formulário de contato integrado.
 
-The Barbearia Luxe project aims to improve customer service, present services offered and allow bookings through an API and WhatsApp, in addition to having an integrated contact form.
+## 🔧 Tecnologias Utilizadas
 
-## 🔧 Technologies Used
-
-The project was developed using the following technologies:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-## 🚀 How to Use
+## 🚀 Como Usar
 
-To use the Barbearia Luxe project, follow the steps below:
+Para usar o projeto Barbearia Luxe, siga os passos abaixo:
 
-1. Clone this repository to your computer:
+1. Clone este repositório para o seu computador:
 
- ```bash
- git clone https://github.com/seu-usuario/devclub-cafeteria.git
- ```
+   ```bash
+   git clone https://github.com/seu-usuario/devclub-cafeteria.git
+   ```
 
-2. Open the `index.html` file in your web browser.
+2. Abra o arquivo `index.html` em seu navegador web.
 
-## 🌐 Example
+## 🌐 Exemplo
 
-A demo of the project can be accessed [here](#) (insert link to demo).
+Uma demonstração do projeto pode ser acessada [aqui](#) (insira o link para a demonstração).
 
-## 🙌 Contribution
+## 🙌 Contribuição
 
-Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features. Be sure to follow the contribution guidelines.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades. Certifique-se de seguir as diretrizes de contribuição.
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the [MIT License](./LICENSE).
+Este projeto está licenciado sob a [Licença MIT](./LICENSE).
